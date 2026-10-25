@@ -342,7 +342,7 @@ export const Hall: React.FC<HallProps> = ({
                 letterSpacing: '0.06em',
               }}
             >
-              KEYNOTE • 8K UHD • 120 FPS
+              KEYNOTE • 4K UHD • 60 FPS
             </span>
             <span
               style={{

@@ -617,7 +617,7 @@ export const Scene04: React.FC = () => {
                     ) : (
                       <span>
                         <span style={{ opacity: 0.5 }}>https://</span>
-                        <span>listen.internal/stream?session=live&amp;fps=120</span>
+                        <span>listen.internal/stream?session=live&amp;fps=60</span>
                       </span>
                     )}
                   </span>
@@ -642,7 +642,7 @@ export const Scene04: React.FC = () => {
                       fontWeight: 600,
                     }}
                   >
-                    120 FPS
+                    60 FPS
                   </div>
                 </div>
               </div>
@@ -704,7 +704,7 @@ export const Scene04: React.FC = () => {
                   </div>
                   <div style={{ display: 'flex', alignItems: 'center', gap: 10 }}>
                     <div style={{ width: 8, height: 8, borderRadius: '50%', backgroundColor: COLORS.teal, boxShadow: `0 0 6px ${COLORS.teal}` }} />
-                    <span style={{ fontFamily: fontFamilyMono, fontSize: 11, color: COLORS.teal, fontWeight: 600 }}>120.0 FPS SYNC</span>
+                    <span style={{ fontFamily: fontFamilyMono, fontSize: 11, color: COLORS.teal, fontWeight: 600 }}>60.0 FPS SYNC</span>
                   </div>
                 </div>
 

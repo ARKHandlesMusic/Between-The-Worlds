@@ -528,7 +528,7 @@ export const Scene10: React.FC = () => {
                 border: '1px solid rgba(242, 154, 82, 0.3)',
               }}
             >
-              8K UHD • 120 FPS NATIVE • ZERO-DRIFT VECTOR MASTER
+              4K UHD • 60 FPS NATIVE • ZERO-DRIFT VECTOR MASTER
             </div>
 
             {/* Authentic Claude AI Emblem */}
@@ -601,9 +601,9 @@ export const Scene10: React.FC = () => {
             >
               <span>CHOREOGRAPHY: PURE SVG / HTML</span>
               <span>•</span>
-              <span>FRAME RATE: 120.000 FPS</span>
+              <span>FRAME RATE: 60.000 FPS</span>
               <span>•</span>
-              <span>CANVAS: 7680 × 4320 UHD</span>
+              <span>CANVAS: 3840 × 2160 UHD</span>
               <span>•</span>
               <span>ANTHROPIC CLAUDE 3.7</span>
             </div>

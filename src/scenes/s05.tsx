@@ -338,7 +338,7 @@ export const Scene05: React.FC = () => {
             {/* Status Pill & Telemetry */}
             <div style={{ display: 'flex', alignItems: 'center', gap: 12 }}>
               <span style={{ fontFamily: fontFamilyMono, fontSize: 10, color: `${COLORS.unlit}88` }}>
-                VIEWPORT: 1920×1080 @ 120 FPS
+                VIEWPORT: 3840×2160 @ 60 FPS
               </span>
               <div
                 style={{

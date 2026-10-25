@@ -1073,7 +1073,7 @@ export const Scene09: React.FC = () => {
                       "verify_invariant(B1_THROUGH_B9)",
                       "sample_loss: 0.000042 // MINIMUM",
                       "model.decode_stream(frame, fps)",
-                      "render_pipeline.dispatch(8K_UHD)",
+                      "render_pipeline.dispatch(4K_UHD)",
                       "bit_exact_precision === true",
                       "grounding_check: SATISFIED",
                       "heartbeat_envelope.lock()",

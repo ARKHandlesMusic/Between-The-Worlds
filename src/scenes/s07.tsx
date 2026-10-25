@@ -385,9 +385,9 @@ export const Scene07: React.FC = () => {
           >
             <span style={{ color: COLORS.teal }}>STUDIO RUNTIME</span>
             <span>•</span>
-            <span>120.000 FPS</span>
+            <span>60.000 FPS</span>
             <span>•</span>
-            <span>7680×4320 UHD</span>
+            <span>3840×2160 UHD</span>
           </div>
 
           {/* Right Status Tray */}
@@ -483,7 +483,7 @@ export const Scene07: React.FC = () => {
                       {[
                         { title: 'Audio Heartbeat', active: true, tag: 'BASS' },
                         { title: 'Waveform Synth', active: false, tag: 'DSP' },
-                        { title: 'Visual Tokens', active: false, tag: '8K' },
+                        { title: 'Visual Tokens', active: false, tag: '4K' },
                         { title: 'Match Cut Anchors', active: false, tag: 'QA' },
                       ].map((chat, idx) => (
                         <div
@@ -874,8 +874,8 @@ export const Scene07: React.FC = () => {
                   <div style={{ display: 'flex', gap: 12 }}>
                     {[
                       { label: 'AUDIO DSP PIPELINE', stat: 'SYNCHRONIZED', val: '96.0 kHz' },
-                      { label: 'FRAME RATE ENGINE', stat: '120.000 FPS', val: '0.00ms JITTER' },
-                      { label: 'CANVAS RESOLUTION', stat: '7680 × 4320', val: '8K UHD' },
+                      { label: 'FRAME RATE ENGINE', stat: '60.000 FPS', val: '0.00ms JITTER' },
+                      { label: 'CANVAS RESOLUTION', stat: '3840 × 2160', val: '4K UHD' },
                       { label: 'MATCH CUT ANCHORS', stat: 'BIT-EXACT 0PX', val: 'B1-B9 PASS' },
                     ].map((card, cIdx) => (
                       <div
@@ -903,8 +903,8 @@ export const Scene07: React.FC = () => {
                   {/* Micro Live Frame Jitter Graph & Dancing Oscilloscope */}
                   <div style={{ flex: 1, backgroundColor: `${COLORS.navy}88`, borderRadius: 6, border: `1px solid ${COLORS.unlit}33`, padding: 10, display: 'flex', flexDirection: 'column', gap: 6 }}>
                     <div style={{ display: 'flex', justifyContent: 'space-between', fontFamily: fontFamilyMono, fontSize: 9, color: `${COLORS.text}66` }}>
-                      <span>FRAME TIMING STABILITY (LAST 120 FRAMES)</span>
-                      <span style={{ color: COLORS.teal }}>STABLE 8.33ms (120 FPS)</span>
+                      <span>FRAME TIMING STABILITY (LAST 60 FRAMES)</span>
+                      <span style={{ color: COLORS.teal }}>STABLE 16.67ms (60 FPS)</span>
                     </div>
                     <div style={{ display: 'flex', alignItems: 'center', gap: 12 }}>
                       <LiveTelemetryStream variant="oscilloscope" style={{ flexShrink: 0 }} />
@@ -1152,7 +1152,7 @@ export const Scene07: React.FC = () => {
                     <span style={{ color: COLORS.teal }}>⎇ main</span>
                     <span>$ remotion render --composition=Video</span>
                   </div>
-                  <span style={{ opacity: 0.6 }}>[ready] bundling 14 vector primitives (8K @ 120 FPS)</span>
+                  <span style={{ opacity: 0.6 }}>[ready] bundling 14 vector primitives (4K @ 60 FPS)</span>
                   <span style={{ opacity: 0.6 }}>[extract] audio waveform: song.mp3 (238.92s @ 44.1 kHz bit-exact)</span>
                   <span style={{ color: COLORS.teal }}>
                     ✓ verified all 9 match cuts (B1-B9 delta max = 0px &lt;= 2px)

@@ -18,8 +18,8 @@ export const Root: React.FC = () => {
         component={Video}
         durationInFrames={Math.ceil(238.92 * FPS)}
         fps={FPS}
-        width={7680}
-        height={4320}
+        width={3840}
+        height={2160}
         calculateMetadata={async () => {
           const seconds = await getAudioDurationInSeconds(staticFile(AUDIO_SRC));
           return {

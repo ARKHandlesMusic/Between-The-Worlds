@@ -15,7 +15,7 @@ const LOG_MESSAGES = [
   '[SYS] Context window: 194,560 / 200,000 tokens active',
   '[BILLING] Rate meter: tier 4 enterprise • $0.0032/token/sec',
   '[TELEMETRY] Latent resonance lock: 0.998 [CONVERGED]',
-  '[ENGINE] 120.000 FPS • Frame jitter 0.000ms • Zero drop',
+  '[ENGINE] 60.000 FPS • Frame jitter 0.000ms • Zero drop',
   '[SYNTHESIS] Human intent translated: 1.000 fidelity',
   '[HEARTBEAT] Resonance verified: 46 BPM pulse locked',
   '[PROMPT] "Between the words" vector space manifold aligned',

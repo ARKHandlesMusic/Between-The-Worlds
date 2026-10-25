@@ -199,12 +199,12 @@ export const Scene01: React.FC = () => {
           <div style={{ display: 'flex', alignItems: 'center', gap: 12 }}>
             <span style={{ color: COLORS.orange, fontWeight: 700 }}>BETWEEN THE WORDS</span>
             <span style={{ opacity: 0.4 }}>•</span>
-            <span>8K UHD 120 FPS</span>
+            <span>4K UHD 60 FPS</span>
             <span style={{ opacity: 0.4 }}>•</span>
             <span>TEMPO: 128.00 BPM</span>
           </div>
           <div style={{ display: 'flex', alignItems: 'center', gap: 16 }}>
-            <span>TC 00:00:{Math.floor(sec).toString().padStart(2, '0')}:{Math.floor((sec % 1) * 120).toString().padStart(2, '0')}</span>
+            <span>TC 00:00:{Math.floor(sec).toString().padStart(2, '0')}:{Math.floor((sec % 1) * 60).toString().padStart(2, '0')}</span>
             <div
               style={{
                 width: 7,

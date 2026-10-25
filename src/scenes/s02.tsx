@@ -298,7 +298,7 @@ export const Scene02: React.FC = () => {
           {/* Right Status Indicator */}
           <div style={{ display: 'flex', alignItems: 'center', gap: 14 }}>
             <span style={{ fontFamily: fontFamilyMono, fontSize: 10, color: COLORS.unlit }}>
-              120 FPS &bull; 8.33ms
+              60 FPS &bull; 16.67ms
             </span>
             <div style={{ display: 'flex', alignItems: 'center', gap: 6 }}>
               <div
